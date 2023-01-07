@@ -16,8 +16,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/pose-detection"></script>
 </head>
 <body>
-    <img src="./image.jpg" id="image"/>
+    <img src="./image_multipose.jpg" id="image_multipose" />
+    <img src="./image.jpg" id="image" />
+    <video width="480" height="360" id="video" controls></video>
     <canvas id="outputCanvas" width="750" height="500"></canvas>
-    <script src="./index.js" type="module"></script>
+    <script src="./camera-singlepose.js" type="module"></script>
 </body>
 </html>
